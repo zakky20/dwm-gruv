@@ -7,3 +7,17 @@
 * Terminal : Alacritty
 * WM : Dwm
 * Bar : SlStatus
+
+# Installation
+```
+mkdir -p ~/.config/suckless
+git clone https://github.com/zakky20/dwm-gruv.git
+cd dwm-gruv
+sudo mv dwm dmenu slstatus ~/.config/suckless
+cd ~/.config/suckless/dwm
+sudo make && sudo make install
+cd ~/.config/suckless/dmenu
+sudo make && sudo make install
+cd ~/.config/suckless/slstatus
+sudo make && sudo make install
+```
