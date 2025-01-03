@@ -1,0 +1,14 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/gruvbox_dark.toml"
+]
+
+[font.normal]
+family = "JetBrainsMonoNL NFP"
+style= "Bold"
+
+[font]
+size = 12.0
+
+[window]
+padding = { x = 10, y = 10 }
